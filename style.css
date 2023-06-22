@@ -29,8 +29,7 @@ body
    flex-direction: column;
    flex-basis: 50%;
    justify-content: center;
-   padding-left: 5%;
-      
+   padding-left: 9%;
 }
 #form-area-div
 {
@@ -47,7 +46,7 @@ flex-direction: column;
 width: 80%;
 min-height: 50px;
 background-color: purple;
-margin-left: 7%;
+margin-left: 8%;
 justify-content: center;
 border-radius: 5px;
 color: white;
@@ -82,7 +81,7 @@ form
 }
 input{
    height: 50px;
-   width: 92%;
+   width: 91%;
    padding: 10px;
    margin-bottom: 20px;
    margin: 15px;
@@ -93,10 +92,10 @@ input{
 button
 {
    height: 50px;
-   width: 90%;
+   width: 89%;
    border-width: 0px;
    background-color: green;
-   margin-left: 20px;
+   margin-left: 18px;
    border-radius: 3px;
    font-size: 20px;
    color: white;
@@ -105,7 +104,7 @@ button
 #text-head-div{
    color: white;
    font-size: 40px;
-   margin-bottom: 3dvb;
+   margin-bottom: 3px;
    }
 #text-body-div{
    color: white;
@@ -117,7 +116,7 @@ button
 {
    font-size: x-small;
    margin: 5%;
-   margin-left: 15%;
+   margin-left: 5%;
 }
 @media screen and (min-width:200px) and (max-width: 768px){
    #main-container-div{
@@ -127,9 +126,17 @@ button
    #try-it-free
 {
    text-align: center;
+   font-size: large;
+
 }
 #text-area-div{
    text-align: center;
    margin-bottom: 5%;
+   padding-left: 0px;
+}
+#terms
+{
+   font-size:xx-small;
+   text-align: center;
 }
 }
