@@ -118,7 +118,7 @@ button
    margin: 2%;
    margin-left: 20%;
 }
-@media screen and (min-width:200px) and (max-width: 768px){
+@media screen and (min-width:200px) and (max-width: 850px){
    #main-container-div{
        display: flex;
        flex-direction: column;
@@ -138,5 +138,6 @@ button
 {
    font-size:xx-small;
    text-align: center;
+   margin-left: 5%;
 }
 }
