@@ -29,7 +29,7 @@ body
    flex-direction: column;
    flex-basis: 50%;
    justify-content: center;
-   padding-left: 11%;
+   padding-left: 5%;
       
 }
 #form-area-div
@@ -52,12 +52,8 @@ justify-content: center;
 border-radius: 5px;
 color: white;
 align-items: center;
-
 }
-#try-it-text
-{
 
-}
 #form-body-div
 {
    display: flex;
@@ -123,76 +119,17 @@ button
    margin: 5%;
    margin-left: 15%;
 }
-@media screen and (max-width:600px){
+@media screen and (min-width:200px) and (max-width: 768px){
    #main-container-div{
        display: flex;
        flex-direction: column;
    }
-   #text-area-div
+   #try-it-free
 {
-   display: flex;
-   flex-direction: column;
-   padding-left: 2%;
-   text-align: center;
-   }
-   #text-head-div{
-   color: white;
-   font-size: 30px;
-   margin-bottom: 2%;
-   }
-#text-body-div{
-   color: white;
-   line-height: 22px;
-   margin-bottom: 3%;
-   font-size: 20px;
-}
-#form-body-div
-{
-   display: flex;
-   flex-direction: column;
-   width: 80%;
-   min-height: 550px;
-   background-color: white;
-   margin-left: 7%;
-}
-#try-it-free
-{
-display: flex;
-flex-direction: column;
-width: 80%;
-min-height: 50px;
-background-color: purple;
-margin-left: 7%;
-justify-content: center;
-border-radius: 5px;
-color: white;
-align-items: center;
-padding: 5%;
-text-align: center;
-
-}
-#terms
-{
-   font-size: x-small;
-   margin: 5%;
-   margin-left: 15%;
    text-align: center;
 }
+#text-area-div{
+   text-align: center;
+   margin-bottom: 5%;
 }
-@media screen and (max-width:800px){
- #try-it-free{
-display: flex;
-flex-direction: column;
-width: 80%;
-min-height: 50px;
-background-color: purple;
-margin-left: 7%;
-justify-content: center;
-border-radius: 5px;
-color: white;
-align-items: center;
-padding: 5%;
-text-align: center;
-   }
 }
-
