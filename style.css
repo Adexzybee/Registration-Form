@@ -113,6 +113,7 @@ button
    }
   #main-container-div{
    gap: 1px;
+   margin-top: 2px;
   }
   #try-it-free{
    width: 95%;
